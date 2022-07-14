@@ -25,7 +25,7 @@ public class ElectronicsDevicesDataApplication {
 		return deviceRepository.save(device);
 	}
 		
-	@GetMapping
+	@GetMapping("/devices")
 	 public List<Device> getDevices(){
 		 return deviceRepository.findAll();
 	 }
