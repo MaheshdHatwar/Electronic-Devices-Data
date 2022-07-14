@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.electronics.Entity.Device;
-import com.electronics.repo.DeviceRepository;
-
 @SpringBootApplication
 @RestController
 public class ElectronicsDevicesDataApplication {

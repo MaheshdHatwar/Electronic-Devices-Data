@@ -1,4 +1,4 @@
-package com.electronics.Entity;
+package com.electronics;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

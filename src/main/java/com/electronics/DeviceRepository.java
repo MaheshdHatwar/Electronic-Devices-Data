@@ -1,8 +1,6 @@
-package com.electronics.repo;
+package com.electronics;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.electronics.Entity.Device;
 
 public interface DeviceRepository extends JpaRepository<Device, Long> {
 
